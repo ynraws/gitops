@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: itsmeynr/user-service:01c8f71afca627d6f4048a236a88853c07f6777a
+          image: itsmeynr/user-service:5072832b970147d4de26a686152195897fe3dbe5
           ports:
             - containerPort: 4001
           livenessProbe:
